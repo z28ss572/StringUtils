@@ -44,7 +44,7 @@ namespace com
                     determine the length of str.
                     */
                     void split(
-                        char* str,
+                        const char* str,
                         const char delimiter,
                         std::vector<std::string> &destination);
 
@@ -58,7 +58,7 @@ namespace com
                     the maximum traversal length of the str.
                     */
                     void split(
-                        char* str,
+                        const char* str,
                         size_t strlen,
                         const char delimiter,
                         std::vector<std::string> &destination);

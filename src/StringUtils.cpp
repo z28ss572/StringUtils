@@ -33,7 +33,7 @@ com::sector572::util::StringUtils::~StringUtils()
 }
 
 void com::sector572::util::StringUtils::split(
-    char* str,
+    const char* str,
     const char delimiter,
     std::vector<std::string> &destination)
 {
@@ -44,7 +44,7 @@ void com::sector572::util::StringUtils::split(
 }
 
 void com::sector572::util::StringUtils::split(
-    char* str,
+    const char* str,
     size_t strlen,
     const char delimiter,
     std::vector<std::string> &destination)
